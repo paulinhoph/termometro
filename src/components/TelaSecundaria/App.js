@@ -8,7 +8,6 @@ export default class Temperatura extends Component {
   render() {
     return (
       <div id="Temperatura">
-          <Carinhas />
           <Button />
       </div>
     );
