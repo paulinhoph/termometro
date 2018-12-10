@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import Temperatura from "./components/TelaSecundaria/App";
 import './App.css';
 
-class App extends Component {
+
+export default class Primaria extends Component {
   render() {
     return (
-      <div className="App">
-        
+      <div className="App-Primario">
+            <Temperatura />
       </div>
     );
   }
 }
 
-export default App;
+
