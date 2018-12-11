@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+
 import Incrivel from '../../Assets/Images/in-love.svg';
 import Animada from '../../Assets/Images/happy.svg';
 import Traquila from '../../Assets/Images/smile.svg';
 import Devagar from '../../Assets/Images/sad.svg';
 import Chata from '../../Assets/Images/sleeping.svg';
+
 
 export default class Carinahas extends Component {
   render() {

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Carinhas from './carinahas';
 import Button from './button';
-import './style.css';
+import '../../App.css';
 
 
 export default class Temperatura extends Component {
   render() {
     return (
-      <div id="Temperatura">
+      <div id="App-Temperatura">
           <Carinhas />
           <Button />
       </div>

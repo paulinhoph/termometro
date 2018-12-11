@@ -5,7 +5,7 @@ export default class Button extends Component {
   render() {
     return (
       <div className="Button-enviar">
-          <button>Enviar</button>
+          <button className="ButtonEnviar">Enviar</button>
       </div>
     );
   }
