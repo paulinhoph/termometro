@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-
-import Incrivel from '../../Assets/Images/in-love.svg';
-import Animada from '../../Assets/Images/happy.svg';
-import Traquila from '../../Assets/Images/smile.svg';
-import Devagar from '../../Assets/Images/sad.svg';
-import Chata from '../../Assets/Images/sleeping.svg';
+import Incrivel from '../../Assets/Images/in-lov-1.png';
+import Animada from '../../Assets/Images/happy-1.png';
+import Traquila from '../../Assets/Images/smile-1.png';
+import Devagar from '../../Assets/Images/sad-1.png';
+import Chata from '../../Assets/Images/sleeping-01.png';
 
 
 export default class Carinahas extends Component {
@@ -14,23 +13,23 @@ export default class Carinahas extends Component {
             <section className="container-carinhas">
                 <div className="container">  
                     <img  src={Incrivel} className="img-carinhas"/> 
-                    <h1>Incrivel</h1>
+                    <h1 className="text-temperatura">Incrivel</h1>
                 </div>
                 <div className="container">
                     <img src={Animada} className="img-carinhas"/>
-                    <h1>Animada</h1>
+                    <h1  className="text-temperatura">Animada</h1>
                 </div> 
                 <div className="container">   
                     <img src={Traquila} className="img-carinhas"/>
-                    <h1>Traquila</h1>
+                    <h1  className="text-temperatura">Traquila</h1>
                 </div>    
                 <div className="container">
                      <img src={Devagar} className="img-carinhas"/>
-                    <h1>Devagar</h1>
+                    <h1  className="text-temperatura">Devagar</h1>
                 </div>    
                 <div className="container">
                     <img src={Chata} className="img-carinhas"/>
-                    <h1>Chata</h1>
+                    <h1  className="text-temperatura">Chata</h1>
                 </div>    
             </section>
       </div>
