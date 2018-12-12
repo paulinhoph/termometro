@@ -9,7 +9,7 @@ import Chata from '../../Assets/Images/sleeping-01.png';
 export default class Carinahas extends Component {
   render() {
     return (
-      <div className="carinahs">
+      <div className="carinhas">
             <section className="container-carinhas">
                 <div className="container">  
                     <img  src={Incrivel} className="img-carinhas"/> 

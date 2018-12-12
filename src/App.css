@@ -5,9 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 body {
     background: radial-gradient(circle, #FCAF17, #F26522);
+
 }
 
 /* Css Chave */
@@ -81,7 +83,7 @@ body {
     margin: 1%;
 }
 .img-carinhas{
-    width: 100%;
+    width: 90%;
 }
 .Button-enviar{
     display: flex;
@@ -95,4 +97,13 @@ body {
     background-color: #2E3192;
     border-radius: 25px;
     border: solid #707070 1px;
+}
+.text-temperatura{
+    position: absolute;
+    z-index: 4;
+    left: 48.9%;
+    color: #2E3192;
+}
+.carinhas{
+    margin:3%;
 }
