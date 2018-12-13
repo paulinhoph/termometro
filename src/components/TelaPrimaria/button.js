@@ -5,15 +5,19 @@ import '../../App.css';
 export default class Button extends Component {
   constructor(props){
     super(props);
-    this.handleClick = "Entrou";
+    this.
+    this.handleChange = '' ;
   }
-  handleClick() {
-    console.log(this.props.handleClick);
+  handleChange() {
+    this.setState.handleChange = 'Entrou';
+    console.log(this.props.handleChange);
   }
   render() {
     return (
       <div className="App-Button">
-        <button onClick={this.props.handleClick} className="App-textButton">Ok</button>
+          <h2 className="text-Chave">Digite a palavra mágica:</h2>
+          <input className="text-Chave-Input" placeholder="mágica" type="text" name="MagicWord" />
+          <button onClick={ this.props.handleChange } className="App-textButton">Ok</button>
       </div>
     );
   }

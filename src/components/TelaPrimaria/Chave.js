@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../../App.css';
-import './input';
 import './button';
 import logo from '../../Assets/Images/group.svg';
 
