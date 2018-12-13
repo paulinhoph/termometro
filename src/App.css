@@ -49,10 +49,10 @@ body {
     box-shadow: #575757 0px 3px 6px;
 }
 .App-Button{
-    display: flex;
+    display: flex;  
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 48px;
 }
 .App-textButton{
     color: #ffffff;
@@ -83,7 +83,7 @@ body {
     margin: 1%;
 }
 .img-carinhas{
-    width: 90%;
+    width: 15.8vw;
 }
 .Button-enviar{
     display: flex;
@@ -103,7 +103,9 @@ body {
     z-index: 4;
     left: 48.9%;
     color: #2E3192;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 .carinhas{
-    margin:3%;
+    margin: 2%;
 }
