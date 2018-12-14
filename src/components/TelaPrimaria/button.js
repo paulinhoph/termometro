@@ -5,7 +5,6 @@ import '../../App.css';
 export default class Button extends Component {
   constructor(props){
     super(props);
-    this.
     this.handleChange = '' ;
   }
   handleChange() {

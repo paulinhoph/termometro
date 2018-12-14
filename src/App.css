@@ -104,3 +104,77 @@ body {
 .carinhas{
     margin: 2%;
 }
+
+/* Secundaria Css Mobile*/
+
+@media(max-width: 880px){
+    .img-carinhas{
+        width: 100%;
+    }
+}
+@media(max-width: 780px){
+    .container-carinhas{
+        margin-top: 2%;
+    }
+    .img-carinhas{
+        width: 100%;
+        padding: 11px;
+    }
+    .ButtonEnviar{
+        width: 100px;
+        
+    }
+    .text-temperatura{
+        font-size: 18px;
+    }
+ }
+@media(max-width: 450px){   
+    .container-carinhas{
+        margin-top: 2%;   
+    }
+}
+
+/* mobile primaria */
+
+@media(max-width: 670px){
+    .App-Chave{
+        margin-top: 3%;
+    }
+    .logo-temometro{
+        width: 25%;
+    }
+    .text-Chave-Input{
+        width: 45%;
+        height: 50px;
+    }
+    .text-Chave{
+        font-size: 3.7vw;
+    }
+    .App-textButton{
+        font-size: 3.5vw;
+    }
+    .text-temperatura{
+        font-size: 20px;
+    }
+}
+@media(max-width: 410px){
+    .App-Chave{
+        display: flex;
+        justify-content: center;
+        margin-top: 20%; 
+    }
+    .logo-temometro{
+        width: 28%;
+    }
+    .App-textButton{
+        margin-top: 22px;
+    }
+    .text-Chave-Input{
+        width: 67%;
+        height: 50px;
+    }
+    .text-Chave{
+        font-size: 5.0vw;
+    }
+
+}
