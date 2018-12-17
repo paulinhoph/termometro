@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Chave from "./components/TelaPrimaria/Chave";
-import Temperaturas from './components/TelaSecundaria/Temperatura';
 import './App.css';
 
 
