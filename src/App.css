@@ -56,7 +56,7 @@ body {
     width: 48px;
     height: 48px;
     font-size: 1.2vw;
-    padding: 12px;
+    padding-top: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     background-color: #2E3192;
@@ -112,18 +112,13 @@ body {
 
 /* Secundaria Css Mobile*/
 
-@media(max-width: 880px){
-    .img-carinhas{
-        width: 100%;
-    }
-}
-@media(max-width: 780px){
+
+@media(max-width: 768px){
     .container-carinhas{
-        margin-top: 2%;
+        margin-top: 40px
     }
     .img-carinhas{
-        width: 100%;
-        padding: 11px;
+        width: 200px;
     }
     .ButtonEnviar{
         width: 100px;
@@ -133,53 +128,29 @@ body {
         font-size: 18px;
     }
  }
-@media(max-width: 450px){   
-    .container-carinhas{
-        margin-top: 2%;   
-    }
-}
 
 /* mobile primaria */
 
-@media(max-width: 670px){
+@media(max-width: 768px){
     .App-Chave{
-        margin-top: 3%;
+        margin-top: 50px;
     }
     .logo-temometro{
-        width: 25%;
+        width: 100px;
     }
     .text-Chave-Input{
-        width: 45%;
+        width: 290px;
         height: 50px;
     }
     .text-Chave{
-        font-size: 3.7vw;
+        font-size: 20px;
     }
     .App-textButton{
-        font-size: 3.5vw;
+        font-size: 1.2em;
+        margin-top: 31px;
     }
     .text-temperatura{
         font-size: 20px;
     }
 }
-@media(max-width: 410px){
-    .App-Chave{
-        display: flex;
-        justify-content: center;
-        margin-top: 20%; 
-    }
-    .logo-temometro{
-        width: 28%;
-    }
-    .App-textButton{
-        margin-top: 22px;
-    }
-    .text-Chave-Input{
-        width: 67%;
-        height: 50px;
-    }
-    .text-Chave{
-        font-size: 5.0vw;
-    }
 
-}
