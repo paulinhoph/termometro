@@ -10,7 +10,7 @@ import { Temperatura } from "./components/TelaPrimaria/Chave";
 const PrivateRoute = ({ component: Component, ...rest }) => (
     <Route
       {...rest}
-      render={props =>
+      render={props => 
         Temperatura() ? (
           <Component {...props} />
         ) : (
@@ -25,7 +25,7 @@ ReactDOM.render(
         <BrowserRouter> 
             <Switch>
                 <Route path="/" exact={true} component={Chave} />
-                <PrivateRoute Route Route   path="/Temperatura" component={Temperaturas} />
+                <PrivateRoute    Route Route path="/Temperatura" component={Temperaturas} />
             </Switch>
         </BrowserRouter>
         , document.getElementById('root'));

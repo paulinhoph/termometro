@@ -3,27 +3,26 @@ import '../../App.css';
 import logo from '../../Assets/Images/group.svg';
 import { Link } from 'react-router-dom';
 
-export const Temperatura = () => true ;
 
-
+export const Temperatura = () =>  true;
 
 
 export default class Chave extends Component {
    constructor(props){
      super(props);
        this.state = {
-         password: '',
+         password:'',
          resultado: ''
        };
       }
       confirm = () => {
         if(this.state.password ==='alohomora'){
           this.setState({
-               resultado: <Link to="/Temperatura" />
+            resultado: console.log('Palavra Correta')
             })
         }else if(this.state.password.length === 0){
           this.setState({
-            resultado:alert('Digite a Palavra Chave')
+            resultado: alert('Digite a Palavra Chave')
           })
         }else{
           this.setState({
@@ -36,6 +35,8 @@ export default class Chave extends Component {
           password: event.target.value
         })
       }
+     
+     
 
   render() {
     return (

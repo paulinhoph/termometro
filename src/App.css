@@ -10,6 +10,7 @@
 body {
     background: radial-gradient(circle, #FCAF17, #F26522);
 
+
 }
 
 /* Css Chave */
@@ -90,6 +91,10 @@ body {
 .img-carinhas{
     width: 15.8vw;
 }
+.imgS{
+    display: none;
+}
+
 .Button-enviar{
     display: flex;
     justify-content: center;
@@ -111,6 +116,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
+.corText{
+    color: #ffffff;
+    display: none;
+}
 .carinhas{
     margin: 2%;
 }
@@ -123,7 +132,7 @@ body {
         margin-top: 40px
     }
     .img-carinhas{
-        width: 200px;
+        width: 215px;
     }
     .ButtonEnviar{
         width: 100px;
@@ -141,7 +150,7 @@ body {
         margin-top: 50px;
     }
     .logo-temometro{
-        width: 100px;
+        width: 106px;
     }
     .text-Chave-Input{
         width: 290px;
