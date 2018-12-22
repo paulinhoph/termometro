@@ -3,29 +3,15 @@ import ReactDOM from 'react-dom';
 import Temperaturas from './components/TelaSecundaria/Temperatura';
 import Chave from './components/TelaPrimaria/Chave';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
-import { Temperatura } from "./components/TelaPrimaria/Chave";
+import { BrowserRouter, Switch, Route} from 'react-router-dom'
 
-
-const PrivateRoute = ({ component: Component, ...rest }) => (
-    <Route
-      {...rest}
-      render={props => 
-        Temperatura() ? (
-          <Component {...props} />
-        ) : (
-          <Redirect to={{ pathname: "/", state: { from: props.location } }} />
-        )
-      }
-    />
-  );
 
 
 ReactDOM.render(
         <BrowserRouter> 
             <Switch>
                 <Route path="/" exact={true} component={Chave} />
-                <PrivateRoute    Route Route path="/Temperatura" component={Temperaturas} />
+                <Route   Route path="/Temperatura"  component={Temperaturas} />
             </Switch>
         </BrowserRouter>
         , document.getElementById('root'));

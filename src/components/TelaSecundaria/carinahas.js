@@ -28,7 +28,7 @@ export default class Carinahas extends Component {
             <section className="container-carinhas">
                 {/* CARINHAS INCRIVEL */}
                 <a href="#" className="container">  
-                    <img  src={Incrivel} className="img-carinhas"/>
+                    <img  src={Incrivel} onClick={''}   className="img-carinhas"/>
                     <h1 className="text-temperatura">Incrivel</h1>
 
                     <img src={IncrivelS}   className="img-carinhas imgS"/>
@@ -73,7 +73,7 @@ export default class Carinahas extends Component {
                     <img id=""  src={ChataS} className="img-carinhas imgS"/> 
                     <h1 className="text-temperatura corText">Chata</h1>
                 </a>  
-                <button onClick={this.incrivel}  className="ButtonEnviar">Enviar</button>
+                <button onClick={''}  className="ButtonEnviar">Enviar</button>
             </section>
 
       </div>
