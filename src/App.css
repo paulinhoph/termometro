@@ -87,13 +87,20 @@ body {
     justify-content: center;
     align-items: center;
     margin: 1%;
+    width: 100%;
+  
 }
-.img-carinhas{
+
+.container:hover{
+}
+
+/* .img-carinhas{
     width: 15.8vw;
+    
 }
 .imgS{
     display: none;
-}
+} */
 
 .Button-enviar{
     display: flex;
@@ -118,7 +125,8 @@ body {
 }
 .corText{
     color: #ffffff;
-    display: none;
+    z-index: 4;
+    
     
 }
 .carinhas{

@@ -19,6 +19,7 @@ export default class Carinahas extends Component {
     constructor(props){
         super(props);
           this.state = {
+            
           };
         }
   render() {
@@ -26,53 +27,64 @@ export default class Carinahas extends Component {
     return (
       <div className="carinhas">
             <section className="container-carinhas">
-                {/* CARINHAS INCRIVEL */}
-                <a href="#" className="container">  
-                    <img  src={Incrivel} onClick={''}   className="img-carinhas"/>
+              
+                <div className="container" onClick={''} >  
+                    <img  src={Incrivel}   className="img-carinhas"/>
                     <h1 className="text-temperatura">Incrivel</h1>
+                </div>
 
+                <div className="container">
                     <img src={IncrivelS}   className="img-carinhas imgS"/>
                     <h1 className="text-temperatura corText">Incrivel</h1>
-                </a>
-                
-                 {/* CARINHAS ANIMADA */}
-                <a href="#" className="container">
-                    <img id="2" onClick={''} src={Animada} className="img-carinhas"/>
-                    <h1  className="text-temperatura">Animada</h1>
+                </div>
 
+              
+                 <div className="container" onClick={''} >  
+                    <img id="2" src={Animada} className="img-carinhas"/>
+                    <h1  className="text-temperatura">Animada</h1>
+                </div>
+
+                <div className="container">
                     <img id=""  src={AnimadaS} className="img-carinhas imgS"/> 
                     <h1 className="text-temperatura corText">Animada</h1>
-                </a> 
+                </div>
                 
-                 {/* CARINHAS TRANQUILA */}
-                <a href="#" className="container">   
-                    <img id="3" onClick={''} src={Tranquila} className="img-carinhas"/>
+                
+                 <div className="container" onClick={''} >   
+                    <img id="3"  src={Tranquila} className="img-carinhas"/>
                     <h1  className="text-temperatura">Tranquila</h1>
+                </div>
 
+                <div className="container">
                     <img id=""  src={TranquilaS} className="img-carinhas imgS"/> 
                     <h1 className="text-temperatura corText">Tranquila</h1>
-                </a> 
+                </div>
                 
 
-                {/* CARINHAS DEVAGAR */}
-                <a href="#" className="container">
-                    <img id="4" onClick={''} src={Devagar} className="img-carinhas"/>
+                <div className="container" onClick={''} >  
+                    <img id="4" src={Devagar} className="img-carinhas"/>
                     <h1  className="text-temperatura">Devagar</h1>
+                </div>
 
+                <div className="container">
                     <img id=""  src={DevagarS} className="img-carinhas imgS"/> 
                     <h1 className="text-temperatura corText">Devagar</h1>
-                </a>   
+                </div>
                
         
 
-                 {/* CARINHAS CHATA */}
-                <a href="#" className="container">
-                    <img id="5" onClick={''} src={Chata} className="img-carinhas"/>
+               
+                 <div className="container" onClick={''} >  
+                    <img id="5"  src={Chata} className="img-carinhas"/>
                     <h1  className="text-temperatura">Chata</h1>
+                </div>
 
+                <div className="container">
                     <img id=""  src={ChataS} className="img-carinhas imgS"/> 
                     <h1 className="text-temperatura corText">Chata</h1>
-                </a>  
+                </div>  
+
+
                 <button onClick={''}  className="ButtonEnviar">Enviar</button>
             </section>
 
