@@ -3,8 +3,6 @@ import '../../App.css';
 import logo from '../../Assets/Images/group.svg';
 
 
-
-
 export default class Chave extends Component {
    constructor(props){
      super(props);
