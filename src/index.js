@@ -6,12 +6,12 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route} from 'react-router-dom'
 
 ReactDOM.render(
-        <BrowserRouter> 
+        <Router> 
             <Switch>
                 <Route path="/" exact={true} component={Chave} />
                 <Route   Route path="/Temperatura"  component={Temperaturas} />
             </Switch>
-        </BrowserRouter>
+        </Router>
         , document.getElementById('root'));
         
 // if(module.hot){
